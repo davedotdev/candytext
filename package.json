@@ -1,5 +1,8 @@
 {
-  "name": "candytext",
+  "name": "@davedotdev/candytext",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/davedotdev"
+  },
   "version": "0.0.1",
   "description": "Candytext is a set of React helpers",
   "author": "David Gee, dave.dev",

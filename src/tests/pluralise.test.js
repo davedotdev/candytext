@@ -1,6 +1,6 @@
 import React from 'react';
 import {render, screen} from '@testing-library/react'
-import { Pluralise } from '../components/Candytext';
+import { Pluralise } from '../components/Candytext/Candytext';
 
 // Test Apple count 0
 let args1 = {

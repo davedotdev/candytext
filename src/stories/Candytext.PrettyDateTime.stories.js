@@ -2,7 +2,7 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import moment from 'moment'
 
-import { PrettyDateTime } from '../components/Candytext';
+import { PrettyDateTime } from '../components/Candytext/Candytext';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

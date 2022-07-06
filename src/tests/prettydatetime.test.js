@@ -1,6 +1,6 @@
 import React from 'react';
 import {render, screen} from '@testing-library/react'
-import { PrettyDateTime } from '../components/Candytext';
+import { PrettyDateTime } from '../components/Candytext/Candytext';
 import moment from 'moment-timezone'
 
 let epochTest = 1657113202276
