@@ -32,7 +32,7 @@ let args5 = {
 describe('testing pluralise', () => {
   test('testing apple with count=0', () => {
     render (<Pluralise {...args1}/>)
-    screen.getByText('apple')
+    screen.getByText('apples')
   });
 });
 

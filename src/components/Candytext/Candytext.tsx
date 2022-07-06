@@ -75,9 +75,6 @@ export const Pluralise = ({ word, count}: PluraliseAppProps) => {
         return ""
     }
     
-    let isBool = false
-    let isCount = false
-    
     // Figure out what our generic input is
     switch (typeof(count)) {
         case "boolean":
@@ -85,6 +82,9 @@ export const Pluralise = ({ word, count}: PluraliseAppProps) => {
                 return word + "s"
             return word
         case "number":
+            // I have 0 apples is a valid language construct
+            if (count === 0)
+                return word + "s"
             if (count > 1)
                 return word + "s"
     }
