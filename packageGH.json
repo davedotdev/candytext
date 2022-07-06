@@ -1,0 +1,73 @@
+{
+  "name": "@davedotdev/candytext",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/davedotdev"
+  },
+  "version": "0.0.2",
+  "description": "Candytext is a set of React helpers",
+  "author": "David Gee, dave.dev",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/davedotdev/candytext/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davedotdev/candytext.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-webpack5": "^6.5.9",
+    "@storybook/manager-webpack5": "^6.5.9",
+    "@storybook/node-logger": "^6.5.9",
+    "@storybook/preset-create-react-app": "^4.1.2",
+    "@storybook/react": "^6.5.9",
+    "@storybook/testing-library": "^0.0.13",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@types/react": "^16.8.0",
+    "jest": "^28.1.2",
+    "prop-types": "^15.8.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "rollup": "^2.75.7",
+    "rollup-plugin-dts": "^4.2.2",
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@testing-library/react": "^9.3.2",
+    "moment-timezone": "^0.5.34",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "test": "react-scripts test",
+    "rollup": "rollup -c",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "license": "Apache-2.0",
+  "eslintConfig": {
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  }
+}
