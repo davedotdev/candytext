@@ -8,7 +8,23 @@ This package offers 3 React components:
 
 I've found these to be particularly useful and wanted to publish an `npm` package to share them.
 
-__Install__
+__Testing__
+
+There is a set of storybook files you can use in the GitHub repo.
+
+To use:
+
+1.  Clone the repo
+2.  Install the dependencies
+3.  Use Storybook
+
+```bash
+git clone https://github.com/davedotdev/candytext
+npm install
+npm run storybook
+```
+
+__To Install and Use in a Project__
 
 ```bash
 npm intall @davedotdev/candytext
@@ -97,7 +113,7 @@ const Demo = () => {
 }
 ```
 
-## Issues
+## Reporting Issues
 
 Go to the GitHub repository: [https://github.com/davedotdev/candytext](https://github.com/davedotdev/candytext) and create an issue with the following detail.
 
@@ -111,7 +127,7 @@ Go to the GitHub repository: [https://github.com/davedotdev/candytext](https://g
 
 ## Contributions
 
-Throw a PR over to Github.
+Add a test, add a `Storybook` story and throw a PR over to GitHub.
 
 ## Buy Me Coffee
 
