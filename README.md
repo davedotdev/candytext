@@ -133,6 +133,22 @@ Add a test, add a `Storybook` story and throw a PR over to GitHub.
 
 Because you're a kind soul >> [https://www.buymeacoffee.com/davedotdev](https://www.buymeacoffee.com/davedotdev)
 
+## Building
+
+```bash
+npm run rollup
+```
+
+## Deploying
+
+Deploy to both GitHub and NPMJS.
+
+__GitHub__
+You have to copy `packageGH.json` > `package.json` and ensure the version is correct then hit `npm publish`.
+
+__NPMJS__
+You have to copy `packageNPM.json` > `package.json` and ensure the version is correct then hit `npm publish`.
+
 ## License
 
 Apache2. See License file on the repo.

@@ -7317,6 +7317,9 @@ var Pluralise = function (_a) {
                 return word + "s";
             return word;
         case "number":
+            // I have 0 apples is a valid language construct
+            if (count === 0)
+                return word + "s";
             if (count > 1)
                 return word + "s";
     }
