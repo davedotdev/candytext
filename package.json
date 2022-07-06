@@ -1,0 +1,42 @@
+{
+  "name": "candytext",
+  "description": "Candytext is a set of React helpers",
+  "author": "David Gee, dave.dev",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/davedotdev/candytext/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davedotdev/candytext.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-webpack4": "^6.5.9",
+    "@storybook/manager-webpack4": "^6.5.9",
+    "@storybook/react": "^6.5.9",
+    "@storybook/testing-library": "^0.0.13",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@types/react": "^16.8.0",
+    "babel-loader": "^8.2.5",
+    "jest": "^28.1.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@testing-library/react": "^9.3.2",
+    "moment-timezone": "^0.5.34",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "react-scripts test"
+  },
+  "license": "Apache-2.0"
+}
